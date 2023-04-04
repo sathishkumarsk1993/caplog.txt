@@ -7,6 +7,8 @@ Log entries are important not just for the captains of starships but for everyon
 
 ( The sample log is filled with log entries from Star Trek: The Next Generation)
 
+https://medium.com/@sathishstarlord/caplog-txt-a-simple-plaintext-future-proof-personal-logging-format-19cb5cdcfb4a
+
 # Semantics
 
 The following are the semantics of caplog.txt :

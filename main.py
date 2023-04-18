@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import os
 import sys
 import datetime
@@ -134,8 +135,8 @@ def add_entry(log):
         entry_message=input()
     entry_message="\n".join(inp) + '\n'
     
-    entry_timestamp = datetime.datetime.now(tz=datetime.timezone.utc)
 
+    entry_timestamp = datetime.datetime.now(tz=datetime.timezone.utc)
     entry_timestamp = entry_timestamp.strftime(TIMESTAMP_FORMAT)
     
     log_dict.setdefault(entry_date, {})

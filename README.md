@@ -1,11 +1,11 @@
 # caplog.txt
 
-Caplog.txt is a simple set of rules to format and structure the log entries in a text file. It is both machine-readable and human-readable. 
-Since it is plain text, it is future-proof and interoperable with multiple applications. 
+Caplog.txt is an open-source, plaintext syntax for formating and structuring log entries in a logbook. It is both machine-readable and human-readable. 
+It is future-proof and interoperable with multiple implementations, including on a paper-based logbook. 
 
-Log entries are important not just for the captains of starships but for everyone who wishes to have a record of their personal or work life. Caplog.txt provides a system to capture time-based logs that can be referenced later. To boldly go where no one has gone before, it is vital to have a record of events in a format that will never go obsolete in the future.  
+Logbooks are important not just for the captains of starships but for everyone who wishes to have a record of their personal or work life. Caplog.txt enables the users to write time-based logs that can be referenced later. To boldly go where no one has gone before, it is important to store our daily logs in a format that will never go obsolete in the future.  
 
-( The sample log is filled with log entries from Star Trek: The Next Generation)
+( The sample logbook is filled with log entries from Star Trek: The Next Generation)
 
 https://medium.com/@sathishstarlord/caplog-txt-a-simple-plaintext-future-proof-personal-logging-format-19cb5cdcfb4a
 
@@ -13,14 +13,14 @@ https://medium.com/@sathishstarlord/caplog-txt-a-simple-plaintext-future-proof-p
 
 The following are the semantics of caplog.txt :
 
-* A log is a text file that contains the log entries. 
-* An entry is a basic unit of information contained in a log. 
+* A 'Logbook' is a text file that contains the log entries. 
+* A 'log entry' or 'entry' is a basic unit of information contained in a logbook. 
+* To 'log an entry' means to add an entry to a logbook. 
 * An entry consists of two parts - Timestamp, Message 
-* The entry timestamp indicates the time at which the entry is made. The first line of an entry must be a timestamp. 
-* The entry message contains the actual message of the entry. It can contain one or more non-blank lines of text. It immediately follows the timestamp and cannot be empty. 
-* Each entry is associated with exactly one date. A date can be associated with one or more entries.  Each date appears once in a log and it precedes the associated entries. 
-* Timestamp should be precisely the time the entry is made. It is unconventional to log an entry with a custom timestamp. 
-* However, log entries can be made for the past dates retroactively. The current timestamp goes with those entries. Therefore it is valid to have a log entry for a past date with a future timestamp. 
+* Timestamp indicates the time at which the entry was logged. The first line of an entry must always be a timestamp. 
+* Message indicates the actual message of the entry. It can contain one or more non-blank lines of text. It immediately follows the timestamp and cannot be empty. 
+* The related entries are grouped together under a Date. Each entry must be associated with exactly one date. A date can be associated with multiple entries.  Each date appears once in a log in its own line and it precedes the associated entries. 
+* Timestamp must always be the time at which the entry was logged. It is unconventional to log an entry with a custom timestamp. However, log entries can be made for the past dates retroactively. The current timestamp goes with those entries. 
 
 # Syntax
 
@@ -28,7 +28,7 @@ One or more blank lines are used to delimit different parts of the log.
 
 * Each date must be preceded by exactly two blank lines.
 * Each entry must be preceded by exactly one blank line. 
-* Entry message cannot be empty. It cannot contain a blank line. 
+* Entry message cannot be empty. It also cannot contain a blank line within it. 
 
 ## Structure
 

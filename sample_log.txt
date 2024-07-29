@@ -1,11 +1,14 @@
 
 
-2234-04-23
+2234-04-23T19:22:22
 
-2334-04-23T19:12:22
+2334-04-23T19:22:22
 Our destination is Planet Deneb IV, beyond which lies the great unexplored mass of the galaxy. My orders are to examine Farpoint, a starbase built there by the inhabitants of that world. Meanwhile I'm becoming better acquainted with my new command – this Galaxy-class USS Enterprise. I'm still somewhat in awe of its size and complexity. As for my crew, we are short in several key positions, most notably a first officer, but I'm informed that a highly experienced man, one Commander William Riker, will be waiting to join the ship at our Deneb IV destination.
 
-2334-04-23T12:12:22
+
+2334-04-23T20:12:22
+
+2334-04-23T23:12:22
 The frozen form of Lieutenant Torres has been rushed to sickbay. 
 The question now is the incredible power of the Q being. Do we dare oppose it?
 
@@ -18,15 +21,8 @@ Preparing to detach saucer section so that families and the majority of the ship
 
 2334-04-30
 
-2334-04-30T12:00:00
-We are running at warp 7 to rendezvous with the science vessel SS Tsiolkovsky which has been routinely monitoring the collapse of a red supergiant star into a white dwarf. What has brought us here is a series of strange messages indicating something has gone wrong aboard the research vessel.
-
-2334-04-30T16:12:22
+2334-05-30T16:12:22
 We are downloading the research information gathered on the collapsing star nearby. 
 I am concerned at being in such close orbit but the Tsiolkovsky's research records will no doubt predict the time of the star's final collapse
-
-2334-04-30T19:15:32
 The strange contaminant that led to the deaths of the Tsiolkovsky crew is now aboard the Enterprise and our engineering section has been commandeered by young Wesley Crusher
-
-2334-05-01T19:15:32
 It is no longer an inconvenient childish prank. Young Wesley Crusher, admittedly a victim of the Tsiolkovsky infection is now in control of my starship.
